@@ -703,6 +703,11 @@ cursor: pointer;
     margin: auto;
 }
 
+.homepg{
+    margin: auto;
+    width: 600px;
+}
+
 .side-picture-quote {
     width: auto;
     height: 300px;
