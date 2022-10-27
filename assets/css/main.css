@@ -698,9 +698,24 @@ cursor: pointer;
 }
 
 .side-picture-pink {
-    width: auto;
-    height: 400px;
-    margin: auto;
+    max-width: 100%;
+    /* height: auto; */
+
+}
+
+.imageconc{
+    flex-basis:350%;
+}
+
+.imagecode{
+    flex-basis:500%;
+}
+
+
+.p{
+    font-size:20px;
+    padding-left: 20px;
+    flex-basis: 450%;
 }
 
 .homepg{
@@ -716,6 +731,8 @@ cursor: pointer;
 
 .image_quote {
     display: flex;
+    align-items: center;
+    justify-content: center;
     column-gap: 1em;
     margin-bottom: 6em;
 }
